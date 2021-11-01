@@ -1,0 +1,4 @@
+{	
+	"columns": ["target_speed", "speed_osrm", "way_maxspeed", "elevation", "fwd_azimuth", "way_type", "way_surface", "node:intersection", "node:railway", "node:crossing", "node:highway", "node:stop", "start_stop", "azimuth_diff", "elevation_diff"],
+	"categorical_values": {"way_type": ["motorway", "secondary", "residential", "tertiary", "primary", "trunk", "null", "motorway_link", "service", "secondary_link", "trunk_link", "living_street", "primary_link", "tertiary_link"], "way_surface": ["asphalt", "concrete", "cobblestone", "unpaved", "sett"], "node:intersection": ["null", "main_to_main", "indistinct", "roundabout", "side_to_side", "main_to_side", "side_to_main"], "node:railway": ["null", "level_crossing"], "node:crossing": ["null", "uncontrolled", "traffic_signals"], "node:highway": ["null", "crossing", "motorway_junction", "traffic_signals", "give_way", "stop", "speed_camera", "bus_stop"], "node:stop": ["null", "stop"], "start_stop": [0, 1]}
+}
